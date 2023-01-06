@@ -153,3 +153,75 @@ header .hero {
 .what-i-do .service-title {
     margin: 20px 0 20px 0;
 }
+
+/* My Resume */
+.resume .all-resume {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.resume .resume-heading {
+    margin-top: 50px;
+    color: #474747;
+}
+.resume .resume-title {
+    margin: 20px 0 10px 0;
+    color: #474747;
+}
+.resume .resume-subtitle {
+    color: #6f6f6f;
+}
+.resume .resume-description {
+    margin: 20px 0 20px 0;
+    color: #6f6f6f;
+    font-size: 14px;
+}
+.resume .resumes {
+    padding: 50px;
+}
+.resume .download-button {
+    text-align: center;
+}
+
+/* Contact */
+.contact {
+    background-color: #FFF8F3;
+    padding: 50px 0;
+}
+.contact .contact-ways {
+    display: flex;
+    justify-content: space-between;
+}
+.contact .contacts {
+    padding: 50px;
+    width: 50%;
+}
+input[type="text"], input[type="email"], textarea {
+    padding: 8px;
+    border: 2px solid transparent;
+    margin-bottom: 10px;
+}
+textarea, input[type="submit"] {
+    display: block;
+}
+.link-heading, .message-heading {
+    margin-bottom: 20px;
+}
+.social-icons {
+    display: flex;
+}
+.social-icons a {
+    margin: 20px 20px 0 0;
+    transition: .1s;
+}
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+/* Copyright text */
+.copyright {
+    background-color: #FD6E0A;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
